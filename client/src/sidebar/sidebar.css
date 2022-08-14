@@ -1,0 +1,49 @@
+
+
+.sidebar{
+    max-height: 100vh;
+    margin:25px;
+    background-color: rgb(252, 241, 255);
+    display: flex;
+    flex:3;
+    border-radius: 7px;
+    justify-content: center;
+}
+.sidebar-img{
+    width: 70%;
+    border-radius: 10px;
+}
+.sidebarItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+.categories-ul{
+    display: flex;
+    flex-direction: column;
+    
+}
+.categorie-li{
+    list-style: none;
+    margin: 5px;
+    font-size: 17px;
+}
+
+.sidebar-text{
+    text-indent: 15px;
+    margin: 7px;
+    font-size: 15px;
+}
+.sidebar-icon{
+    margin:5px;
+}
+.sidebar-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 10px;
+    border-bottom: 1px solid rgb(205, 204, 204);
+}

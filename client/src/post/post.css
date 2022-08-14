@@ -1,0 +1,51 @@
+.post{
+    display: flex;
+    background-color: rgb(233, 233, 255);
+    margin:20px 10px 20px 40px;
+    
+    width: 400px;
+    flex-direction: column;
+    border-radius: 15px;
+    
+}
+.img{
+    width: 85%;
+    border-radius: 15px;
+}
+.post-text{
+    text-indent: 20px;
+    margin: 5px;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.postFooter{
+    width: 90%;
+        
+}
+.post-ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.post-infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10px 0px 10px 0px;
+}
+.post-li{
+    margin:5px;
+    font-family:"Varela Round",sans-serif;
+    font-size: 13px;
+}
+h3{
+    margin:5px
+}
+.time-text{
+    margin-left: 130px;
+    font-size: 13px;
+}

@@ -1,0 +1,53 @@
+.settings{
+    flex: 9;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    margin:20px;
+    
+}
+
+.imgContainer img{
+    width: 70px;
+    border-radius: 50%;
+}
+.imgContainer{
+    display: flex;
+    align-items: center;
+    margin:20px;
+}
+.img-icon{
+    font-size: 30px;
+    color:rgba(66, 174, 86, 0.619);
+    cursor: pointer;
+    margin:20px;
+}
+.userInfos{
+    margin: 20px;
+
+}
+.settingsInput{
+    border: none;
+    width: 90%;
+    height: 30px;
+    margin:20px;
+    border-bottom: 1px solid rgb(180, 177, 177);
+}
+.settings h2{
+    margin:15px 0px 0px 15px;
+}
+.settingsButton{
+    width: 300px;
+    height: 40px;
+    justify-content: center;
+    margin-left: 40px;
+    border-radius: 10px;
+    background-color: rgba(21, 170, 13, 0.612);
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+}

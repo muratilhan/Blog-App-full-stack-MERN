@@ -1,0 +1,110 @@
+.single-post{
+    flex: 9;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    height: fit-content;
+    border-radius: 10px;
+    border:1px solid grey
+}
+.descriptionInput{
+    padding: 10px 0px 10px 10px;
+    margin:10px;
+    border:none;
+    width: 100%;
+    text-indent: 15px;
+    border-bottom: 1px solid grey;
+}
+.descriptionContainer{
+    display: flex;
+    align-items: center;
+}
+.updateModeSpanDesc{
+    color:rgb(150, 150, 20)
+}
+.updateButton{
+    padding: 7px;
+    display: flex;
+    align-self: flex-end;
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+    margin:10px 160px 10px 0px;
+    background-color:rgb(71, 152, 71);
+    cursor: pointer;
+    color:white;
+    border-radius: 10px;
+    border: none;
+}
+.updateModeInput{
+    align-self:flex-start;
+    width: 40%;
+    border:none;
+    border-bottom: 1px solid grey;
+    margin: 10px;
+    font-size: 20px;
+    padding: 6px;
+}
+.updateModeInputContainer{
+    display: flex;
+    width: 100%;
+    align-self:flex-start;
+    display: flex;
+    align-items: center;
+
+}
+.updateModeSpan{
+    color:rgb(35, 155, 57);
+    font-size: 24px;
+}
+.singlePosth1{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.single-post-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    text-align: center;
+    
+}
+.singlePostImg{
+    width: 70%;
+    border-radius: 5px;
+    height: 400px;
+}
+.singlePostIcons{
+    font-size: 26px;
+    cursor: pointer;
+    margin:5px 5px 5px auto;
+}
+.singlePostIcon:first-child{
+    cursor: pointer;
+    color:rgb(71, 152, 71);
+}
+.singlePostIcon:last-child{
+    color:rgb(255, 101, 101);
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+.singlePostInfos{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+}
+.singlePostText{
+    width: 70%;
+    text-indent: 25px;
+    margin: 10px;
+    font-size: 19px;
+}

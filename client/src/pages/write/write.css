@@ -1,0 +1,76 @@
+
+
+.write{
+    background-color:white;
+    border:1px solid rgb(0, 202, 7);
+    margin:20px auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+img{
+    width: 70%;
+    margin: 30px;
+}
+.writeFormGroup{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.writeForm{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+.inputTitle{
+    font-size: 30px;
+    margin:30px 0px 30px 0px;
+    border:1px solid rgb(0, 202, 7);
+    border-radius: 10px;
+    text-indent: 10px;
+}
+.writeAlert{
+    padding:8px;
+    margin-bottom: 20px;
+    cursor: not-allowed;
+    color:white;
+    border-radius: 5px;
+    background-color: red;
+}
+.text-area{
+    border-radius: 10px;
+    text-indent: 20px;
+    font-size: 20px;
+    border:none
+}
+
+.uploadIcon{
+    margin: 0px 30px 0px 60px;
+    cursor: pointer;
+}
+.handleButton{
+    width: 200px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(7, 137, 5);
+    color:white;
+}
+.writeText{
+    display: flex;
+    width: 80%;
+    margin: 20px;
+    border:1px solid rgb(0, 202, 7);
+    border-radius: 10px;
+}
